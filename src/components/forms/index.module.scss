@@ -1,0 +1,29 @@
+form {
+    width: 800px;
+}
+
+.nameFieldRow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 8px 0;
+    gap: 8px;
+}
+
+.footerText {
+    & :last-child{
+        text-decoration: underline;
+        color: #f2f2f2;
+    }   
+    margin: 10px 0;
+    text-align: center;
+}
+
+.button {
+    margin: 8px 0;
+}
+
+.loginFormPassword {
+    margin: 8px 0;
+}
+
